@@ -1,7 +1,7 @@
 import React from 'react'
-import charts from './charts.png'
-import homeanime from './homeanime.gif'
-import growmoney from './growmoney.gif'
+import charts from '../images/charts.png'
+import homeanime from '../images/homeanime.gif'
+import growmoney from '../images/growmoney.gif'
 
 const homepage = () => {
     return (
