@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,167 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* COMMON STYLING */
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+/* NAVBAR */
+
+.navbar{
+  display: flex;
+  background-color: rgb(192, 212, 216);
+  justify-content: space-between;
+  height: 3.7em;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  margin: 0em 2em;
+}
+
+.menu{
+  display: flex;
+  list-style: none;
+}
+
+.menuBox ul{
+  display: flex;
+  margin: 0em 1em;
+  list-style: none;
+}
+
+#features, #business, #about, #pricing, #login, #sign-up{
+  padding: 0.99em 1.3em;
+  font-size: 1.1rem;
+}
+
+#features:hover, #business:hover, #about:hover, #pricing:hover, #login:hover, #sign-up:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+
+/* HOME SECTION */
+
+.homeSection{
+  margin: 2.7em;
+  margin-top: 3.5em;
+}
+
+/* Analyse Stock */
+.analyseStock{
+  font-size: 1.7em;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* Stock Search box */
+.stockSearch{
+  border: 1px solid rgb(203, 203, 203);
+  border-radius: 1.5em;
+  width: 15em;
+  height: 2.4em;
+  padding: 0em 0.3em;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#searchHidden{
+  height: 2em;
+  font-size: 1em;
+  padding: 0em 0.5em;
+  border: none;
+  outline: none;
+}
+
+.searchIcon{
+  color: grey;
+}
+
+/* Explore */
+.explore{
+  font-size: 1.3em;
+  font-weight: 500;
+  line-height: 1.7em;
+}
+
+.explore a{
+  color: rgb(92, 92, 153);
+  text-decoration: none;
+}
+
+.explore a:hover{
+  text-decoration: underline;
+}
+
+/* Vertical line */
+.vertLine{
+  border-left: 6px solid rgb(150, 180, 186);
+  height: 7em;
+}
+
+/* Title */
+.title{
+  font-size: 30px;
+  margin: 0;
+  padding: 0em 0.3em;
+  font-size: 3em;
+}
+
+/* Small description */
+.smalldesc{
+  color: grey;
+  margin: 0;
+  padding: 0.6em 1.5em;
+}
+
+
+/* INFO SECTION */
+
+
+
+/* MORE INFO SECTION */
+
+
+
+/* GET CONNECTED SECTION */
+
+
+
+/* FOOTER SECTION */
+
+
+
+/* UTILITIES */
+
+.blackbg{
+  background-color: black;
+  color: white;
+}
+
+.lightgreybg{
+  background-color: rgb(246, 246, 246);
+}
+
+.flexRow{
+  display: flex;
+  flex-direction: row;
+}
+
+.flexCol{
+  display: flex;
+  flex-direction: column;
+}
+
+.semibold{
+  font-weight: 500;
 }
