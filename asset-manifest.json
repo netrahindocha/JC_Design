@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/TradeMates_React/static/css/main.a50ca2aa.css",
+    "main.js": "/TradeMates_React/static/js/main.68ef4bff.js",
+    "static/js/787.fcff81d9.chunk.js": "/TradeMates_React/static/js/787.fcff81d9.chunk.js",
+    "static/media/homeanime.gif": "/TradeMates_React/static/media/homeanime.ca567a6bd5811960afbb.gif",
+    "static/media/infoTemp.jpg": "/TradeMates_React/static/media/infoTemp.a195765c1ec0bcb2931a.jpg",
+    "index.html": "/TradeMates_React/index.html",
+    "main.a50ca2aa.css.map": "/TradeMates_React/static/css/main.a50ca2aa.css.map",
+    "main.68ef4bff.js.map": "/TradeMates_React/static/js/main.68ef4bff.js.map",
+    "787.fcff81d9.chunk.js.map": "/TradeMates_React/static/js/787.fcff81d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a50ca2aa.css",
+    "static/js/main.68ef4bff.js"
+  ]
+}
