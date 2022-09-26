@@ -36,9 +36,9 @@ const homepage = () => {
             <br/>
             <br/>
             <br/>
-            <p className="explore"><strong>Explore: </strong><a href="">Markets Today</a>, <a href="">Best Intraday
+            <p className="explore"><strong>Explore: </strong><a href="/">Markets Today</a>, <a href="/">Best Intraday
                     Stocks</a>,
-                <a href=""> Futures Dashboard</a>, <a href="">Sector Performance</a>, <a href="">Option Strategy
+                <a href="/"> Futures Dashboard</a>, <a href="/">Sector Performance</a>, <a href="/">Option Strategy
                     Builder </a>
                 and more!
             </p>
@@ -110,16 +110,16 @@ const homepage = () => {
             </div>
             <div className="usefulLinks flexCol">
                 <h3>USEFUL LINKS</h3>
-                <div className="miniFont"><a href="">Your Account</a></div>
-                <div className="miniFont"><a href="">Become an Affiliate</a></div>
-                <div className="miniFont"><a href="">Contact Us</a></div>
-                <div className="miniFont"><a href="">Partnerships</a></div>
-                <div className="miniFont"><a href="">Suggest a Feature</a></div>
+                <div className="miniFont"><a href="/">Your Account</a></div>
+                <div className="miniFont"><a href="/">Become an Affiliate</a></div>
+                <div className="miniFont"><a href="/">Contact Us</a></div>
+                <div className="miniFont"><a href="/">Partnerships</a></div>
+                <div className="miniFont"><a href="/">Suggest a Feature</a></div>
             </div>
             <div className="contact flexCol">
                 <h3>CONTACT</h3>
                 <div><i className="fa fa-home icons" style={{fontSize: "1.3em"}} id="homeIcon"></i><span className="miniFont home">Jamnagar</span></div>
-                <div><i className="fa fa-envelope icons" style={{fontSize: "1.1em"}} id="emailIcon"></i><a href="" className="miniFont email">info@trademates.com</a></div>
+                <div><i className="fa fa-envelope icons" style={{fontSize: "1.1em"}} id="emailIcon"></i><a href="/" className="miniFont email">info@trademates.com</a></div>
                 <div><i className="fa fa-phone icons" style={{fontSize: "1.3em"}} id="callIcon"></i><span className="miniFont call"></span>+91 xxxxxxxxxx</div>
                 <div><i className="fa fa-print icons" style={{fontSize: "1.3em"}} id="printIcon"></i><span className=" miniFont print"></span>+91 xxxxxxxxxx
                 </div>
