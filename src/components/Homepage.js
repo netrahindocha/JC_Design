@@ -28,9 +28,8 @@ const homepage = () => {
     <div className="homeSection flexRow">
         <div className="flexCol">
             <p className="analyseStock">Analyse Stock <span>Charts.</span></p>
-            <br/>
             <div className="stockSearch flexRow">
-                <i className="fa fa-search searchIcon" style={{fontSize: "1em"}}></i>
+                <i className="fa fa-search searchIcon"></i>
                 <input type="searchHidden" name="searchHidden" id="searchHidden" placeholder="Stock Search"/>
             </div>
             <br/>
@@ -88,10 +87,10 @@ const homepage = () => {
     <div className="getConnectedSection flexRow">
         <p className="semibold">Get connected with us on social networks!</p>
         <div className="socialIcons flexRow">
-            <div><button className="fa fa-facebook-f" id="facebook" style={{fontSize: "1em"}}></button></div>
-            <div><button className="fa fa-twitter" id="twitter" style={{fontSize: "1em"}}></button></div>
-            <div><img src={instagram} alt="" width="37em" height="37.2em" id="instagram"></img></div>
-            <div><button className="fa fa-whatsapp" id="whatsapp" style={{fontSize: "1.3em"}}></button></div>
+            <div><button className="fa fa-facebook-f" id="facebook"></button></div>
+            <div><button className="fa fa-twitter" id="twitter"></button></div>
+            <div><img src={instagram} alt="" id="instagram"></img></div>
+            <div><button className="fa fa-whatsapp" id="whatsapp"></button></div>
         </div>
     </div>
 
@@ -118,16 +117,16 @@ const homepage = () => {
             </div>
             <div className="contact flexCol">
                 <h3>CONTACT</h3>
-                <div><i className="fa fa-home icons" style={{fontSize: "1.3em"}} id="homeIcon"></i><span className="miniFont home">Jamnagar</span></div>
-                <div><i className="fa fa-envelope icons" style={{fontSize: "1.1em"}} id="emailIcon"></i><a href="/" className="miniFont email">info@trademates.com</a></div>
-                <div><i className="fa fa-phone icons" style={{fontSize: "1.3em"}} id="callIcon"></i><span className="miniFont call"></span>+91 xxxxxxxxxx</div>
-                <div><i className="fa fa-print icons" style={{fontSize: "1.3em"}} id="printIcon"></i><span className=" miniFont print"></span>+91 xxxxxxxxxx
+                <div><i className="fa fa-home icons" id="homeIcon"></i><span className="miniFont home">Jamnagar</span></div>
+                <div><i className="fa fa-envelope icons" id="emailIcon"></i><a href="/" className="miniFont email">info@trademates.com</a></div>
+                <div><i className="fa fa-phone icons" id="callIcon"></i><span className="miniFont call"></span>+91 xxxxxxxxxx</div>
+                <div><i className="fa fa-print icons" id="printIcon"></i><span className=" miniFont print"></span>+91 xxxxxxxxxx
                 </div>
             </div>
         </div>
         <div className="endPart flexCol smallFont">
             <div className="copyright">&copy; 2022 TradeMates.com</div>
-            <div className="madeIn">Made with <i className="fa fa-heart" style={{fontSize: "1em", color: "rgb(129, 181, 192)"}}></i> in
+            <div className="madeIn">Made with <i className="fa fa-heart heartIcon"></i> in
                 India - sponserName</div>
         </div>
     </footer>
