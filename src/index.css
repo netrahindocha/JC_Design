@@ -49,12 +49,22 @@ html{
   list-style: none;
 }
 
+.menuBox ul li a {
+  text-decoration: none;
+  color: black;
+}
+
 #features, #business, #about, #pricing, #login, #sign-up{
   padding: 0.93em 1.3em;
   font-size: 1.1rem;
 }
 
 #features:hover, #business:hover, #about:hover, #pricing:hover, #login:hover, #sign-up:hover{
+  background-color: white;
+  cursor: pointer;
+}
+
+#features:active, #business:active, #about:active, #pricing:active, #login:active, #sign-up:active{
   background-color: white;
   cursor: pointer;
 }
@@ -241,6 +251,7 @@ html{
   cursor: pointer;
 } 
 
+
 /* FOOTER SECTION */
 
 .footerSection{
@@ -310,6 +321,96 @@ html{
 }
 
 
+/* LOGIN SECTION */
+
+.loginSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 3.5em;
+}
+
+#loginImage{
+  width: 50%;
+  height: 80%;
+}
+
+.loginContent{
+  width: 50%;
+  margin: 5em;
+}
+
+.googleIcon{
+  width:  1em;
+  padding: 0.6em;
+  background-color: white;
+  border-radius: 0.1em;
+}
+
+.googleBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  background-color: #007bff;
+  border: 1.5px solid transparent;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+  border-radius: 0.2em;
+  cursor: pointer;
+}
+
+.textWrap{
+  padding: 0em 1.5em;
+  color: white;
+}
+
+#emailAddress, #emailPassword{
+  margin-bottom: 1em;
+  width: 20em;
+  font-family: "Segoe UI", Arial, sans-serif;
+  border: 1px solid transparent;
+  border-radius: 0.3em;
+  font-size: 1em;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+  padding: 0.5em 1em;
+}
+
+.check{
+  width: 22em;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+
+.loginBtn{
+  background-color: #007bff;
+  border: 1.5px solid transparent;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+  border-radius: 0.2em;
+  cursor: pointer;
+  color: white;
+  padding: 0.4em 2em;
+  font-size: 1em;
+}
+
+.forgotPass{
+  padding: 0.5em;
+}
+
+.leftalign{
+  text-align: left;
+  width: 22em;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+
 /* UTILITIES */
 
 .blackbg{
@@ -349,4 +450,36 @@ html{
 
 .lineheight{
   line-height: 1.6em;
+}
+
+.greyFont{
+  color: grey;
+}
+
+.midFont{
+  margin: 0;
+  padding: 0;
+  font-size: 2.5em;
+}
+
+.blueFont{
+  color: #007bff;
+}
+
+.whitebg{
+  background-color: white;
+}
+
+.justifyCenter{
+  display: flex;
+  justify-content: center;
+}
+
+.alignCenter{
+  display: flex;
+  align-items: center;
+}
+
+.bottomPadding{
+  padding-bottom: 1.3em;
 }
